@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Klipper\Component\User\Security\Http\Firewall;
+namespace Klipper\Component\User\Security\Firewall;
 
 use Klipper\Component\User\Listener\LocaleSubscriber;
 
@@ -18,7 +18,7 @@ use Klipper\Component\User\Listener\LocaleSubscriber;
  *
  * @author François Pluchino <francois.pluchino@klipper.dev>
  */
-class LocaleSessionListener
+class LocaleSessionFirewallListener
 {
     protected LocaleSubscriber $localeSubscriber;
 
